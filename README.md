@@ -15,9 +15,17 @@ Due to some technical issues on my local computer, I was unable to add find_pack
 ## Usage
 
 ### 
+#### For Linux
 ```bash
 mkdir build
 cd build
 cmake ..
 make
 ./RotatingCircles
+````
+  #### For Windows
+  ```bash
+cmake -G "MinGW Makefiles" -B build -S .
+make
+./RotatingCircles
+````
