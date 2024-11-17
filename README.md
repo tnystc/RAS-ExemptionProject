@@ -26,6 +26,7 @@ make
   #### For Windows
   ```bash
 cmake -G "MinGW Makefiles" -B build -S .
+cd build
 make
 ./RotatingCircles
 ````
